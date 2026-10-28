@@ -1,0 +1,9 @@
+{
+  "format": "int16",
+  "endian": "little",
+  "channels": 2,
+  "offset": 0,
+  "fs": 500,
+  "scale": 0.00048828125,
+  "bias": 0.0
+}

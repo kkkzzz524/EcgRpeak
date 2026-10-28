@@ -1,0 +1,9 @@
+# 统一按 LF 入库，Windows 检出时由 Git 处理换行
+* text=auto eol=lf
+
+# 明确的二进制文件，避免被当作文本处理
+*.png binary
+*.ico binary
+*.bin binary
+*.a   binary
+*.exe binary

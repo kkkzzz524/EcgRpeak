@@ -1,0 +1,32 @@
+# ---------------- 构建产物 ----------------
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.pdb
+*.ilk
+*_autogen/
+
+# ---------------- 免安装发布包（windeployqt 生成的 Qt 运行库，44 MB，不入库） ----------------
+dist/
+release/*.zip
+*.7z
+
+# ---------------- 编辑器 / IDE ----------------
+.vscode/
+.idea/
+CMakeLists.txt.user*
+*.autosave
+*.swp
+
+# ---------------- 工具运行时数据 ----------------
+.workbuddy/
+
+# ---------------- 系统临时文件 ----------------
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
